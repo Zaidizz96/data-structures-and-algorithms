@@ -2,6 +2,8 @@
 
 ## Table Of Contents
 
-| Code Challange                       | Link                                  |  
-|--------------------------------------|---------------------------------------|
-|  Reverse Array                       | [Read me file](./src/README.md)       | 
+| Code Challange                         | Link                                          |  
+|----------------------------------------|-----------------------------------------------|
+| Reverse Array                          | [Read me file](./src/reversedArray/README.md) | 
+| -------------------------------------- |-----------------------------------------------|
+| Shifted Array                          | [Read me file](./src/shiftedArray/README.md) | 
