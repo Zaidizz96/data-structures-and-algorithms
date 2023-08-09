@@ -1,3 +1,5 @@
+package reversedArray;
+
 public class ReversedArr{
 
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 ## Whiteboard Process
 
-![Whiteboard Image](../assets/code-challang1-whiteboard.PNG)
+![Whiteboard Image](../../assets/code-challang1-whiteboard.PNG)
 
 
 ## Approach & Efficiency
