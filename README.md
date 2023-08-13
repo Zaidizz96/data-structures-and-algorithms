@@ -2,8 +2,10 @@
 
 ## Table Of Contents
 
-| Code Challange                         | Link                                          |  
-|----------------------------------------|-----------------------------------------------|
-| Reverse Array                          | [Read me file](./src/reversedArray/README.md) | 
-| -------------------------------------- |-----------------------------------------------|
-| Shifted Array                          | [Read me file](./src/shiftedArray/README.md) | 
+| Code Challange                         | Link                                              |  
+|----------------------------------------|---------------------------------------------------|
+| Reverse Array                          | [Read me file](./src/reversedArray/README.md)     | 
+| -------------------------------------- | -----------------------------------------------   |
+| Shifted Array                          | [Read me file](./src/shiftedArray/README.md)      | 
+| -------------------------------------- | -----------------------------------------------   |
+| Binary Search                          | [Read me file](./src/arrayBinarySearch/README.md) | 
