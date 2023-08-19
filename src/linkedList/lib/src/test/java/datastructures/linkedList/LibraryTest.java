@@ -3,12 +3,40 @@
  */
 package datastructures.linkedList;
 
+import dataStructures.linkedList.LinkedList;
+import dataStructures.linkedList.Node;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
-    @Test void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
-        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
+    @Test void checkedEmptyLinkedList() {
+        LinkedList linkedList = new LinkedList();
+
+        assertNull(linkedList.getHead());
+    }
+    @Test void checkInsertFunctionality(){
+        LinkedList linkedList = new LinkedList();
+        linkedList.insert(7);
+
+        assertNotNull(linkedList.getHead());
+    }
+    @Test void checkIncludeElements(){
+        LinkedList linkedList = new LinkedList();
+        linkedList.insert(1);
+        linkedList.insert(2);
+        linkedList.insert(3);
+        linkedList.insert(6);
+        boolean expectedVlue = linkedList.include(3);
+        assertTrue(expectedVlue);
+    }
+    @Test void checkReturnCollection(){
+        LinkedList linkedList = new LinkedList();
+        linkedList.insert(7);
+        linkedList.insert(5);
+        linkedList.insert(7);
+        linkedList.insert(3);
+        String expected = "{ 3 } -> { 7 } -> { 5 } -> { 7 } -> NULL";
+        String actual = linkedList.toString();
+        assertEquals(expected , actual);
     }
 }

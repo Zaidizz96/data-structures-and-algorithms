@@ -3,9 +3,9 @@ package dataStructures.linkedList;
 public class Node {
 
     private Node next;
-    private int data;
+    private Integer data;
 
-    public Node(int data) {
+    public Node(Integer data) {
         this.data = data;
         this.next = null;
     }
