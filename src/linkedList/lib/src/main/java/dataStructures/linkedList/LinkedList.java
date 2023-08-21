@@ -2,38 +2,82 @@ package dataStructures.linkedList;
 
 public class LinkedList {
 
-    private static Node head;
+    private  Node head;
+
 
     public LinkedList() {
         head = null;
+
     }
-    public Node getHead(){
+
+    public Node getHead() {
         return head;
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
-        linkedList.insert(4);
-        linkedList.insert(7);
-        linkedList.insert(8);
-        linkedList.insert(10);
+        linkedList.append(1);
+        linkedList.append(2);
+        linkedList.append(3);
+        linkedList.append(4);
         System.out.println(linkedList.toString());
-        System.out.println(linkedList.include(7));
+
+
     }
 
     public boolean isEmpty() {
         return (head == null);
     }
 
-    public void insert(Integer value){
+    public void append(Integer value) {
         Node node = new Node(value);
-        if (isEmpty()){
+        if (isEmpty()) {
             head = node;
-        }else {
+        } else {
+            Node tempNode = head;
+            while (tempNode.getNext() != null) {
+                tempNode = tempNode.getNext();
+            }
+            tempNode.setNext(node);
+        }
+    }
+
+    public void insertBefore(Integer value, Integer newValue) {
+        Node node = new Node(newValue);
+        Node tempNode = head;
+        if(head.getData() == value){
             node.setNext(head);
-            head=node;
+            head = node;
+        }
+        while(tempNode.getNext() != null && tempNode.getNext().getData() != value){
+            tempNode = tempNode.getNext();
+        }
+        if(tempNode.getNext() != null){
+            Node leader = tempNode.getNext();
+            tempNode.setNext(node);
+            node.setNext(leader);
         }
 
+}
+
+public void insertAfter(Integer value , Integer newValue){
+        Node node = new Node(newValue);
+        Node tempNode = head;
+    while(tempNode.getNext() != null && tempNode.getData() != value) {
+        tempNode = tempNode.getNext();
+    }
+        node.setNext(tempNode.getNext());
+        tempNode.setNext(node);
+}
+
+    public void insert(Integer value) {
+        Node node = new Node(value);
+        if (isEmpty()) {
+            head = node;
+        } else {
+            node.setNext(head);
+            head = node;
+        }
     }
 
     public boolean include(int value) {
@@ -46,7 +90,7 @@ public class LinkedList {
                 if (curr.getData() == value) {
                     return true;
                 }
-               curr = curr.getNext();
+                curr = curr.getNext();
             }
         }
         return false;
