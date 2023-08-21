@@ -44,7 +44,7 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTest.checkReturnCollection">
+  <component name="RunManager" selected="Gradle.LibraryTest.checkInsertAfterLast">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructures.linkedList.LinkedList" />
       <module name="linkedList.lib.main" />
@@ -58,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.checkIncludeElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.checkInsertAfterLast" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -71,7 +71,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkIncludeElements&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertAfterLast&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -81,7 +81,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.checkInsertFunctionality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.checkInsertBeforeFirst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -94,7 +94,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertFunctionality&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertBeforeFirst&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -104,7 +104,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.checkReturnCollection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.checkInsertBeforeMiddile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +117,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkReturnCollection&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertBeforeMiddile&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,7 +127,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.checkedEmptyLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.checkInsertTail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +140,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkedEmptyLinkedList&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertTail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LibraryTest.checkReturnCollection" />
-        <item itemvalue="Gradle.LibraryTest.checkIncludeElements" />
-        <item itemvalue="Gradle.LibraryTest.checkInsertFunctionality" />
-        <item itemvalue="Gradle.LibraryTest.checkedEmptyLinkedList" />
+        <item itemvalue="Gradle.LibraryTest.checkInsertAfterLast" />
+        <item itemvalue="Gradle.LibraryTest.checkInsertBeforeFirst" />
+        <item itemvalue="Gradle.LibraryTest.checkInsertBeforeMiddile" />
+        <item itemvalue="Gradle.LibraryTest.checkInsertTail" />
         <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>

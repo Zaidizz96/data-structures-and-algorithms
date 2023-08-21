@@ -39,4 +39,54 @@ class LibraryTest {
         String actual = linkedList.toString();
         assertEquals(expected , actual);
     }
+    @Test void checkInsertTail(){
+        LinkedList linkedList = new LinkedList();
+        linkedList.insert(4);
+        linkedList.insert(6);
+        linkedList.insert(9);
+        linkedList.insert(1);
+        linkedList.insert(3);
+        linkedList.append(10);
+        String expected = "{ 3 } -> { 1 } -> { 9 } -> { 6 } -> { 4 } -> { 10 } -> NULL";
+        String actual = linkedList.toString();
+        assertEquals(expected , actual);
+    }
+    @Test void checkInsertBeforeMiddile(){
+        LinkedList linkedList = new LinkedList();
+        linkedList.append(4);
+        linkedList.append(6);
+        linkedList.append(3);
+        linkedList.append(9);
+        linkedList.append(5);
+        linkedList.insertBefore(3 , 10);
+        String expected = "{ 4 } -> { 6 } -> { 10 } -> { 3 } -> { 9 } -> { 5 } -> NULL";
+        String actual = linkedList.toString();
+        assertEquals(expected , actual);
+    }
+
+    @Test void checkInsertBeforeFirst(){
+        LinkedList linkedList = new LinkedList();
+        linkedList.append(4);
+        linkedList.append(6);
+        linkedList.append(3);
+        linkedList.append(9);
+        linkedList.append(5);
+        linkedList.insertBefore(4 , 1);
+        String expected = "{ 1 } -> { 4 } -> { 6 } -> { 3 } -> { 9 } -> { 5 } -> NULL";
+        String actual = linkedList.toString();
+        assertEquals(expected , actual);
+
+    }
+    @Test void checkInsertAfterLast(){
+        LinkedList linkedList = new LinkedList();
+        linkedList.append(4);
+        linkedList.append(6);
+        linkedList.append(3);
+        linkedList.append(9);
+        linkedList.append(5);
+        linkedList.insertAfter( 5, 8);
+        String expected = "{ 4 } -> { 6 } -> { 3 } -> { 9 } -> { 5 } -> { 8 } -> NULL";
+        String actual = linkedList.toString();
+        assertEquals(expected , actual);
+    }
 }
