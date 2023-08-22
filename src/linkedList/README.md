@@ -3,7 +3,7 @@
 This coding challenge involves implementing a linked list data structure with a Node class and a Linked List class. The Linked List class provides methods for inserting nodes at the head, checking if a value exists, and converting the linked list to a string.
 ## Whiteboard Process
 
-![Whiteboard Image](../../assets/code-challange06-white%20board.PNG)
+![Whiteboard Image](../../assets/new-white%20board%20lab-06.PNG)
 ## Approach & Efficiency
 I built a linked list step by step. Each "node" in the list held a value and knew about the next node. The list itself started with a "head" that pointed to the first node. Adding new nodes was super quick, as they were added at the beginning ("head") of the list in constant time—O(1)
 ## Classes:
