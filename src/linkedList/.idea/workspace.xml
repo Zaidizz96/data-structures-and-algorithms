@@ -44,7 +44,7 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTest.checkInsertAfterLast">
+  <component name="RunManager" selected="Gradle.LibraryTest.check_happy_path">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructures.linkedList.LinkedList" />
       <module name="linkedList.lib.main" />
@@ -58,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.checkInsertAfterLast" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.check_happy_path" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -71,7 +71,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertAfterLast&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.check_happy_path&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -81,7 +81,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.checkInsertBeforeFirst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.check_k_and_size_theSame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -94,7 +94,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertBeforeFirst&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.check_k_and_size_theSame&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -104,7 +104,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.checkInsertBeforeMiddile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.check_k_greater_than_size" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +117,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertBeforeMiddile&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.check_k_greater_than_size&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,7 +127,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.checkInsertTail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.check_k_negative_number" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +140,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.checkInsertTail&quot;" />
+            <option value="&quot;datastructures.linkedList.LibraryTest.check_k_negative_number&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LibraryTest.checkInsertAfterLast" />
-        <item itemvalue="Gradle.LibraryTest.checkInsertBeforeFirst" />
-        <item itemvalue="Gradle.LibraryTest.checkInsertBeforeMiddile" />
-        <item itemvalue="Gradle.LibraryTest.checkInsertTail" />
+        <item itemvalue="Gradle.LibraryTest.check_happy_path" />
         <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Gradle.LibraryTest.check_k_negative_number" />
+        <item itemvalue="Gradle.LibraryTest.check_k_and_size_theSame" />
+        <item itemvalue="Gradle.LibraryTest.check_k_greater_than_size" />
       </list>
     </recent_temporary>
   </component>

@@ -3,7 +3,7 @@
 This coding challenge involves implementing a linked list data structure with a Node class and a Linked List class. The Linked List class provides methods for inserting nodes at the head, checking if a value exists, and converting the linked list to a string.
 ## Whiteboard Process
 
-![Whiteboard Image](../../assets/new-white%20board%20lab-06.PNG)
+![Whiteboard Image](../../assets/white-board-code-challange07.PNG)
 ## Approach & Efficiency
 I built a linked list step by step. Each "node" in the list held a value and knew about the next node. The list itself started with a "head" that pointed to the first node. Adding new nodes was super quick, as they were added at the beginning ("head") of the list in constant time—O(1)
 ## Classes:
@@ -24,6 +24,7 @@ I built a linked list step by step. Each "node" in the list held a value and kne
   - insertBefore(value , newValue): add new value before the node with specific given value 
   - insertAfter(value , newValue): add new value after the node with specified given value.
   - to_string(): Converts the linked list to a formatted string.
+  - kth-from-end(): Return the node’s value that is k places from the tail of the linked list.
 
 - #### Testing
 
@@ -35,3 +36,6 @@ I built a linked list step by step. Each "node" in the list held a value and kne
 - Can successfully add multiple nodes to the end of a linked list
 - Can successfully insert a node before a node located i the middle of a linked list
 - Can successfully insert a node after the last node of the linked list
+- can successfully throws a runtime exception if kth-value is (greater than size of linked list or less than 0)
+- can successfully return the node's value that is k places from the tail of the linked list.
+- can successfully return the node's value of size 1 linked list.
