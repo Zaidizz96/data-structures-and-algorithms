@@ -4,23 +4,28 @@
 package datastructures.linkedList;
 
 import dataStructures.linkedList.LinkedList;
-import dataStructures.linkedList.Node;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
-    @Test void checkedEmptyLinkedList() {
+    @Test
+    void checkedEmptyLinkedList() {
         LinkedList linkedList = new LinkedList();
 
         assertNull(linkedList.getHead());
     }
-    @Test void checkInsertFunctionality(){
+
+    @Test
+    void checkInsertFunctionality() {
         LinkedList linkedList = new LinkedList();
         linkedList.insert(7);
 
         assertNotNull(linkedList.getHead());
     }
-    @Test void checkIncludeElements(){
+
+    @Test
+    void checkIncludeElements() {
         LinkedList linkedList = new LinkedList();
         linkedList.insert(1);
         linkedList.insert(2);
@@ -29,7 +34,9 @@ class LibraryTest {
         boolean expectedVlue = linkedList.include(3);
         assertTrue(expectedVlue);
     }
-    @Test void checkReturnCollection(){
+
+    @Test
+    void checkReturnCollection() {
         LinkedList linkedList = new LinkedList();
         linkedList.insert(7);
         linkedList.insert(5);
@@ -37,9 +44,11 @@ class LibraryTest {
         linkedList.insert(3);
         String expected = "{ 3 } -> { 7 } -> { 5 } -> { 7 } -> NULL";
         String actual = linkedList.toString();
-        assertEquals(expected , actual);
+        assertEquals(expected, actual);
     }
-    @Test void checkInsertTail(){
+
+    @Test
+    void checkInsertTail() {
         LinkedList linkedList = new LinkedList();
         linkedList.insert(4);
         linkedList.insert(6);
@@ -49,44 +58,119 @@ class LibraryTest {
         linkedList.append(10);
         String expected = "{ 3 } -> { 1 } -> { 9 } -> { 6 } -> { 4 } -> { 10 } -> NULL";
         String actual = linkedList.toString();
-        assertEquals(expected , actual);
+        assertEquals(expected, actual);
     }
-    @Test void checkInsertBeforeMiddile(){
+
+    @Test
+    void checkInsertBeforeMiddile() {
         LinkedList linkedList = new LinkedList();
         linkedList.append(4);
         linkedList.append(6);
         linkedList.append(3);
         linkedList.append(9);
         linkedList.append(5);
-        linkedList.insertBefore(3 , 10);
+        linkedList.insertBefore(3, 10);
         String expected = "{ 4 } -> { 6 } -> { 10 } -> { 3 } -> { 9 } -> { 5 } -> NULL";
         String actual = linkedList.toString();
-        assertEquals(expected , actual);
+        assertEquals(expected, actual);
     }
 
-    @Test void checkInsertBeforeFirst(){
+    @Test
+    void checkInsertBeforeFirst() {
         LinkedList linkedList = new LinkedList();
         linkedList.append(4);
         linkedList.append(6);
         linkedList.append(3);
         linkedList.append(9);
         linkedList.append(5);
-        linkedList.insertBefore(4 , 1);
+        linkedList.insertBefore(4, 1);
         String expected = "{ 1 } -> { 4 } -> { 6 } -> { 3 } -> { 9 } -> { 5 } -> NULL";
         String actual = linkedList.toString();
-        assertEquals(expected , actual);
+        assertEquals(expected, actual);
 
     }
-    @Test void checkInsertAfterLast(){
+
+    @Test
+    void checkInsertAfterLast() {
         LinkedList linkedList = new LinkedList();
         linkedList.append(4);
         linkedList.append(6);
         linkedList.append(3);
         linkedList.append(9);
         linkedList.append(5);
-        linkedList.insertAfter( 5, 8);
+        linkedList.insertAfter(5, 8);
         String expected = "{ 4 } -> { 6 } -> { 3 } -> { 9 } -> { 5 } -> { 8 } -> NULL";
         String actual = linkedList.toString();
-        assertEquals(expected , actual);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void check_k_greater_than_size() {
+        String actual = null;
+        try {
+            LinkedList linkedList = new LinkedList();
+            linkedList.append(1);
+            linkedList.append(2);
+            linkedList.append(3);
+            linkedList.append(4);
+            linkedList.append(5);
+            linkedList.kth_from_end(6);
+            String expect = "not allowed (k > size)";
+            assertEquals(expect, actual);
+        } catch (Exception c) {
+            actual = c.getMessage();
+        }
+    }
+
+    @Test
+    void check_k_and_size_theSame() {
+        try {
+            LinkedList linkedList = new LinkedList();
+            linkedList.append(1);
+            linkedList.append(2);
+            linkedList.append(3);
+            linkedList.append(4);
+            linkedList.append(5);
+            String actual = linkedList.kth_from_end(5);
+            String expect = "the value is :" + 1;
+            assertEquals(expect, actual);
+        } catch (Exception c) {
+            System.out.println(c.getMessage());
+            ;
+        }
+    }
+
+    @Test
+    void check_k_negative_number() {
+        String actual = null;
+        try {
+            LinkedList linkedList = new LinkedList();
+            linkedList.append(1);
+            linkedList.append(2);
+            linkedList.append(3);
+            linkedList.append(4);
+            linkedList.append(5);
+            linkedList.kth_from_end(-4);
+            String expect = "k cannot be negative number";
+            assertEquals(expect, actual);
+        } catch (Exception c) {
+            actual = c.getMessage();
+        }
+    }
+    @Test void check_happy_path(){
+        try {
+            LinkedList linkedList = new LinkedList();
+            linkedList.append(1);
+            linkedList.append(2);
+            linkedList.append(3);
+            linkedList.append(4);
+            linkedList.append(5);
+            String actual = linkedList.kth_from_end(2);
+            String expect = "the value is :" + 3;
+            assertEquals(expect, actual);
+        } catch (Exception c) {
+            System.out.println(c.getMessage());
+            ;
+        }
     }
 }
