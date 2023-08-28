@@ -7,13 +7,7 @@ public class LinkedList {
 
     public static void main(String[] args) {
         try {
-//            LinkedList linkedList = new LinkedList();
-//            linkedList.append(1);
-//
-//            System.out.println(linkedList.size);
-//            System.out.println(linkedList.kth_from_end(1));
             LinkedList linkedList = new LinkedList();
-
             LinkedList list1 = new LinkedList();
             list1.append(1);
             list1.append(3);
@@ -23,6 +17,8 @@ public class LinkedList {
             list2.append(5);
             list2.append(9);
             list2.append(4);
+            list2.append(7);
+            list2.append(6);
 
             System.out.println(linkedList.zipLists(list1,list2));
         }
@@ -35,25 +31,33 @@ public class LinkedList {
         Node p_curr = head, q_curr = l1.head;
         Node p_next, q_next;
 
-        // While there are available positions in p;
+
         while (p_curr != null && q_curr != null) {
 
-            // Save next pointers
+
             p_next = p_curr.getNext();
             q_next = q_curr.getNext();
 
-            // make q_curr as next of p_curr
-            q_curr.setNext(p_next); ; // change next pointer of q_curr
-            p_curr.setNext(q_curr);  ; // change next pointer of p_curr
 
-            // update current pointers for next iteration
+            q_curr.setNext(p_next);
+            p_curr.setNext(q_curr);
+
             p_curr = p_next;
             q_curr = q_next;
+        }
+        while (p_curr != null) {
+            l1.append(p_curr.getData());
+            p_curr = p_curr.getNext();
+        }
+
+        while (q_curr != null) {
+            l1.append(q_curr.getData());
+            q_curr = q_curr.getNext();
         }
         l1.head = q_curr;
     }
 
-    public  LinkedList zipLists(LinkedList linkedList1, LinkedList linkedList2){
+    public LinkedList zipLists(LinkedList linkedList1, LinkedList linkedList2){
          linkedList1.merge(linkedList2);
          return linkedList1;
     }
