@@ -62,7 +62,7 @@ class LibraryTest {
     }
 
     @Test
-    void checkInsertBeforeMiddile() {
+    void checkInsertBeforeMiddle() {
         LinkedList linkedList = new LinkedList();
         linkedList.append(4);
         linkedList.append(6);
@@ -157,7 +157,9 @@ class LibraryTest {
             actual = c.getMessage();
         }
     }
-    @Test void check_happy_path(){
+
+    @Test
+    void check_happy_path(){
         try {
             LinkedList linkedList = new LinkedList();
             linkedList.append(1);
@@ -171,6 +173,27 @@ class LibraryTest {
         } catch (Exception c) {
             System.out.println(c.getMessage());
             ;
+        }
+    }
+
+    @Test void testMergeMethod(){
+        try {
+            LinkedList linkedList = new LinkedList();
+            LinkedList list1 = new LinkedList();
+            list1.append(1);
+            list1.append(3);
+            list1.append(2);
+
+            LinkedList list2 = new LinkedList();
+            list2.append(5);
+            list2.append(9);
+            list2.append(4);
+
+            String expected = "{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> { 4 } -> NULL";
+            assertEquals(expected , linkedList.zipLists(list1 , list2));
+        }
+        catch (Exception c){
+            System.out.println(c.getMessage());
         }
     }
 }
