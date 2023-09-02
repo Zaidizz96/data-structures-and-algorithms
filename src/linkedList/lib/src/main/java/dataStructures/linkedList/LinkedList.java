@@ -1,8 +1,10 @@
 package dataStructures.linkedList;
 
+import dataStructures.sharedNode.Node;
+
 public class LinkedList {
 
-    private  Node head;
+    private Node head;
     private Integer size;
 
     public static void main(String[] args) {
