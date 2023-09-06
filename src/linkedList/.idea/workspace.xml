@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_PSEUDO_QUEUE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/pseudoQueue/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/pseudoQueue/PseudoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/pseudoQueue/PseudoQueueInterFace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/pseudoQueue/TestPseudoQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/animalShelter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/animalShelter/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/animalShelter/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/animalShelter/TestAnimalShelter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +54,13 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestPseudoQueue.testPseudo_Queue_Dequeue">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructures.pseudoQueue.Driver" />
+  <component name="RunManager" selected="Gradle.TestAnimalShelter.testDequeueWithWrongPreference">
+    <configuration name="dataStructures.animalShelter.Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.animalShelter.Driver" />
       <module name="linkedList.lib.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructures.pseudoQueue.*" />
+          <option name="PATTERN" value="dataStructures.animalShelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testMergeMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAnimalShelter.testDequeueWithEmptyShelter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -82,7 +81,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.testMergeMethod&quot;" />
+            <option value="&quot;datastructures.animalShelter.TestAnimalShelter.testDequeueWithEmptyShelter&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -92,7 +91,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.test_Merge_On_Different_List_Length" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAnimalShelter.testDequeueWithWrongPreference" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,7 +104,30 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.linkedList.LibraryTest.test_Merge_On_Different_List_Length&quot;" />
+            <option value="&quot;datastructures.animalShelter.TestAnimalShelter.testDequeueWithWrongPreference&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAnimalShelter.testEnqueueAndDequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;datastructures.animalShelter.TestAnimalShelter.testEnqueueAndDequeue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,36 +160,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestPseudoQueue.testPseudo_Queue_Enqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;datastructures.pseudoQueue.TestPseudoQueue.testPseudo_Queue_Enqueue&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestAnimalShelter.testDequeueWithWrongPreference" />
+        <item itemvalue="Gradle.TestAnimalShelter.testDequeueWithEmptyShelter" />
+        <item itemvalue="Gradle.TestAnimalShelter.testEnqueueAndDequeue" />
+        <item itemvalue="Application.dataStructures.animalShelter.Driver" />
         <item itemvalue="Gradle.TestPseudoQueue.testPseudo_Queue_Dequeue" />
-        <item itemvalue="Gradle.TestPseudoQueue.testPseudo_Queue_Enqueue" />
-        <item itemvalue="Application.Driver" />
-        <item itemvalue="Gradle.LibraryTest.test_Merge_On_Different_List_Length" />
-        <item itemvalue="Gradle.LibraryTest.testMergeMethod" />
       </list>
     </recent_temporary>
   </component>
