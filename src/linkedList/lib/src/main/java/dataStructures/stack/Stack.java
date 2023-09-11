@@ -2,8 +2,8 @@ package dataStructures.stack;
 
 import dataStructures.sharedNode.Node;
 
-public class Stack {
-    private Node top;
+public class Stack<T> {
+    private Node<T> top;
     public int size;
 
     public Stack() {
