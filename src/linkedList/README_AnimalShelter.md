@@ -4,6 +4,7 @@
 This challenge involves creating an AnimalShelter class that holds dogs and cats and operates using a first-in, first-out approach. The class implements methods for enqueuing and dequeuing animals based on their species preference.
 
 ## Whiteboard Process
+
 ![Whiteboard](../../assets/whiteboard%20code%20challange%20(animal%20shelter).png)
 
 ## Approach & Efficiency

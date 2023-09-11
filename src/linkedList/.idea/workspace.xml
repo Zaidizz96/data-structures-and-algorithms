@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/animalShelter/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/animalShelter/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/animalShelter/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/animalShelter/TestAnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/BracketValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/stack_queue_brackets/MultiBracketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_AnimalShelter.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_AnimalShelter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/sharedNode/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/sharedNode/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +57,13 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestAnimalShelter.testDequeueWithWrongPreference">
-    <configuration name="dataStructures.animalShelter.Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructures.animalShelter.Driver" />
+  <component name="RunManager" selected="Gradle.MultiBracketTest">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.stack_queue_brackets.Driver" />
       <module name="linkedList.lib.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructures.animalShelter.*" />
+          <option name="PATTERN" value="dataStructures.stack_queue_brackets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAnimalShelter.testDequeueWithEmptyShelter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultiBracketTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -81,7 +84,53 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.animalShelter.TestAnimalShelter.testDequeueWithEmptyShelter&quot;" />
+            <option value="&quot;datastructures.stack_queue_brackets.MultiBracketTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiBracketTest.testInvalidBrackets" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;datastructures.stack_queue_brackets.MultiBracketTest.testInvalidBrackets&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiBracketTest.testValidBrackets" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;datastructures.stack_queue_brackets.MultiBracketTest.testValidBrackets&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,59 +163,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestAnimalShelter.testEnqueueAndDequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;datastructures.animalShelter.TestAnimalShelter.testEnqueueAndDequeue&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestPseudoQueue.testPseudo_Queue_Dequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;datastructures.pseudoQueue.TestPseudoQueue.testPseudo_Queue_Dequeue&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MultiBracketTest" />
+        <item itemvalue="Gradle.MultiBracketTest.testInvalidBrackets" />
+        <item itemvalue="Gradle.MultiBracketTest.testValidBrackets" />
+        <item itemvalue="Application.Driver" />
         <item itemvalue="Gradle.TestAnimalShelter.testDequeueWithWrongPreference" />
-        <item itemvalue="Gradle.TestAnimalShelter.testDequeueWithEmptyShelter" />
-        <item itemvalue="Gradle.TestAnimalShelter.testEnqueueAndDequeue" />
-        <item itemvalue="Application.dataStructures.animalShelter.Driver" />
-        <item itemvalue="Gradle.TestPseudoQueue.testPseudo_Queue_Dequeue" />
       </list>
     </recent_temporary>
   </component>

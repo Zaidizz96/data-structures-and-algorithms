@@ -1,6 +1,6 @@
 package dataStructures.sharedNode;
 
-public class Node {
+public class Node<T> {
 
     private Node next;
     private Integer data;
