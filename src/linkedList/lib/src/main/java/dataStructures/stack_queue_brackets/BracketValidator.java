@@ -3,7 +3,7 @@ package dataStructures.stack_queue_brackets;
 import dataStructures.stack.Stack;
 
 public class BracketValidator {
-    public static boolean validateBrackets(String s) {
+    public  boolean validateBrackets(String s) {
         Stack<Character> stack = new Stack<>();
         char[] charArray = s.toCharArray();
 
