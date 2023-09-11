@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/BracketValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/stack_queue_brackets/MultiBracketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_AnimalShelter.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_AnimalShelter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/sharedNode/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/sharedNode/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/BracketValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/BracketValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/stack_queue_brackets/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/datastructures/stack_queue_brackets/MultiBracketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/stack_queue_brackets/MultiBracketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +63,7 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MultiBracketTest">
+  <component name="RunManager" selected="Gradle.MultiBracketTest.testInvalidBrackets">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructures.stack_queue_brackets.Driver" />
       <module name="linkedList.lib.main" />
@@ -165,9 +171,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MultiBracketTest" />
         <item itemvalue="Gradle.MultiBracketTest.testInvalidBrackets" />
         <item itemvalue="Gradle.MultiBracketTest.testValidBrackets" />
+        <item itemvalue="Gradle.MultiBracketTest" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Gradle.TestAnimalShelter.testDequeueWithWrongPreference" />
       </list>
