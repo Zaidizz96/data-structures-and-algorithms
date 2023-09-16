@@ -18,4 +18,6 @@
 | -------------------------------------- | -----------------------------------------------                      |
 | Animal Shelter                         | [Read me file](./src/linkedList/README_AnimalShelter.md)             |
 | -------------------------------------- | -----------------------------------------------                      |
+| Binary_Tree                            | [Read me file](./src/linkedList/README_TREES.md)                     |
+| -------------------------------------- | -----------------------------------------------                      |
 | Multi-bracket Validation.              | [Read me file](./src/linkedList/README_Multi_bracketT_Validation.md) |
