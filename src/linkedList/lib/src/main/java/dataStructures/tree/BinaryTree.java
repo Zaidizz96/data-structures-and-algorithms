@@ -48,4 +48,22 @@ public class BinaryTree {
         postOrder(root, traversalLinkedList);
         return traversalLinkedList;
     }
+
+    public int findMaximumValue(Node node){
+        if (node == null){
+            return Integer.MIN_VALUE;
+        }
+        int max_root = node.value;
+        int left_root = findMaximumValue(node.leftNode);
+        int right_root = findMaximumValue(node.rightNode);
+
+        if (left_root > max_root){
+            max_root = left_root;
+        }
+        if (right_root > max_root){
+            max_root = right_root;
+        }
+        return max_root;
+
+    }
 }

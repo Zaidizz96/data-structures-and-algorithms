@@ -4,7 +4,7 @@
 This challenge involves creating classes for a binary tree and a binary search tree and implementing various methods to perform depth-first traversals, insertion of nodes, and checking for the existence of nodes.
 
 ## Whiteboard Process
-![Whiteboard Image](../../assets/Trees_Whiteboard_cc.png)
+![Whiteboard Image](../../assets/White_Board_tree_cc2.png)
 
 ## Approach & Efficiency
 For the Binary Tree:
@@ -20,6 +20,12 @@ For the Binary Search Tree (BST):
 - Time Complexity: The time complexity for the depth-first traversal methods is O(n), where n is the number of nodes in the tree. The "add" and "contains" methods in the BST have a time complexity of O(h), where h is the height of the tree.
 - Space Complexity: The space complexity for the depth-first traversal methods is O(h) due to the recursion stack. The "add" and "contains" methods have a space complexity of O(1) since they use only a few additional variables.
 
+## Methods
+`findMaxValue` method to find the max node value in the binary tree 
+
+- input( Node node)
+- output(int max_value)
+
 ## Solution
 To use these classes and methods, follow these steps:
 
@@ -34,4 +40,7 @@ List<Integer> postorderTraversal = binaryTree.postorderTraversal();
 BinarySearchTree binarySearchTree = new BinarySearchTree(rootValue);
 binarySearchTree.add(value);
 boolean exists = binarySearchTree.contains(value);
+
+BinaryTree binaryTree = new BinaryTree(rootValue);
+int max_node_value = binaryTree.findMaxValue(binaryTree.root)
 
