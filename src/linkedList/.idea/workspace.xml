@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_TREES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/tree/BinarySearchTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/tree/BinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_TREES.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_TREES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/datastructures/tree/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/tree/BinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,29 +64,19 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTreeTest.test_Contains_Methods">
-    <configuration name="BinarySearchTreeTest.Test_Instantiate_Empty_Tree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;datastructures.tree.BinarySearchTreeTest.Test_Instantiate_Empty_Tree&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.BinaryTreeTest.test_Find_Max_value_BinaryTree_EmptyTree">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.tree.Driver" />
+      <module name="linkedList.lib.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructures.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BinarySearchTreeTest.check_Return_Collection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -105,29 +92,6 @@
             <option value=":lib:test" />
             <option value="--tests" />
             <option value="&quot;datastructures.tree.BinarySearchTreeTest.check_Return_Collection&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BinarySearchTreeTest.test_Add_Properly_Values_At_Position" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;datastructures.tree.BinarySearchTreeTest.test_Add_Properly_Values_At_Position&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,7 +124,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTreeTest.test_Instantiate_With_SingleRoot" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeTest.test_Find_Max_value_BinaryTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,7 +137,30 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.tree.BinarySearchTreeTest.test_Instantiate_With_SingleRoot&quot;" />
+            <option value="&quot;datastructures.tree.BinaryTreeTest.test_Find_Max_value_BinaryTree&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinaryTreeTest.test_Find_Max_value_BinaryTree_EmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;datastructures.tree.BinaryTreeTest.test_Find_Max_value_BinaryTree_EmptyTree&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeTest.test_Find_Max_value_BinaryTree_EmptyTree" />
+        <item itemvalue="Gradle.BinaryTreeTest.test_Find_Max_value_BinaryTree" />
+        <item itemvalue="Application.Driver" />
         <item itemvalue="Gradle.BinarySearchTreeTest.test_Contains_Methods" />
         <item itemvalue="Gradle.BinarySearchTreeTest.check_Return_Collection" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.test_Add_Properly_Values_At_Position" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.test_Instantiate_With_SingleRoot" />
-        <item itemvalue="Gradle.BinarySearchTreeTest.Test_Instantiate_Empty_Tree" />
       </list>
     </recent_temporary>
   </component>

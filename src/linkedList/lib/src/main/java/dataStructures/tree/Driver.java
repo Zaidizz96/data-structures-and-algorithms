@@ -25,6 +25,21 @@ public class Driver {
         binarySearchTree.add(1);
 
         System.out.println(binarySearchTree.contains(5));
+
+        // ================================
+
+        BinaryTree tree = new BinaryTree(2);
+        tree.root.leftNode = new Node(7);
+        tree.root.rightNode = new Node(5);
+        tree.root.leftNode.rightNode = new Node(6);
+        tree.root.leftNode.rightNode.leftNode = new Node(1);
+        tree.root.leftNode.rightNode.rightNode = new Node(11);
+        tree.root.rightNode.rightNode = new Node(9);
+        tree.root.rightNode.rightNode.leftNode = new Node(4);
+
+
+        System.out.println("Maximum element is "
+                + tree.findMaximumValue(tree.root));
     }
 
 
