@@ -1,10 +1,10 @@
 # Binary Tree and Binary Search Tree
 
 ## Description
-This challenge involves creating classes for a binary tree and a binary search tree and implementing various methods to perform depth-first traversals, insertion of nodes, and checking for the existence of nodes.
+This challenge involves creating classes for a binary tree and a binary search tree and implementing various methods to perform depth-first traversals, insertion of nodes, checking for the existence of nodes, and breadth-first traversal.
 
 ## Whiteboard Process
-![Whiteboard Image](../../assets/White_Board_tree_cc2.png)
+![Whiteboard Image](../../assets/White-Board-cc17.png)
 
 ## Approach & Efficiency
 For the Binary Tree:
@@ -21,12 +21,19 @@ For the Binary Search Tree (BST):
 - Space Complexity: The space complexity for the depth-first traversal methods is O(h) due to the recursion stack. The "add" and "contains" methods have a space complexity of O(1) since they use only a few additional variables.
 
 ## Methods
-`findMaxValue` method to find the max node value in the binary tree 
 
-- input( Node node)
-- output(int max_value)
+### Binary Tree Methods
+- `preorderTraversal`: Perform a pre-order depth-first traversal of the binary tree.
+- `inorderTraversal`: Perform an in-order depth-first traversal of the binary tree.
+- `postorderTraversal`: Perform a post-order depth-first traversal of the binary tree.
+- `breadthFirst`: Perform a breadth-first traversal of the binary tree.
+- `findMaxValue`: Find the maximum value node in the binary tree.
 
-## Solution
+### Binary Search Tree (BST) Methods
+- `add`: Insert a node with a given value into the BST.
+- `contains`: Check if a given value exists in the BST.
+
+## Usage
 To use these classes and methods, follow these steps:
 
 ### Binary Tree
@@ -36,11 +43,5 @@ BinaryTree binaryTree = new BinaryTree(rootValue);
 List<Integer> preorderTraversal = binaryTree.preorderTraversal();
 List<Integer> inorderTraversal = binaryTree.inorderTraversal();
 List<Integer> postorderTraversal = binaryTree.postorderTraversal();
-
-BinarySearchTree binarySearchTree = new BinarySearchTree(rootValue);
-binarySearchTree.add(value);
-boolean exists = binarySearchTree.contains(value);
-
-BinaryTree binaryTree = new BinaryTree(rootValue);
-int max_node_value = binaryTree.findMaxValue(binaryTree.root)
-
+List<Integer> breadthFirstTraversal = binaryTree.breadthFirst();
+int maxNodeValue = binaryTree.findMaxValue(binaryTree.root);

@@ -3,6 +3,9 @@ import dataStructures.tree.BinarySearchTree;
 import dataStructures.tree.BinaryTree;
 import dataStructures.tree.Node;
 import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -29,4 +32,16 @@ public class BinaryTreeTest {
 
         assertEquals(Integer.MIN_VALUE , tree.findMaximumValue(tree.root) );
     }
+    @Test
+    void testBreadthFirst() throws Exception {
+        BinaryTree tree1 = new BinaryTree(1);
+        tree1.root.leftNode = new Node(2);
+        tree1.root.rightNode = new Node(3);
+        tree1.root.leftNode.leftNode = new Node(4);
+        tree1.root.leftNode.rightNode = new Node(5);
+        tree1.root.rightNode.leftNode = new Node(6);
+        tree1.root.rightNode.rightNode = new Node(7);
+        List<Integer> result1 = tree1.breadthFirst(tree1.root);
+        assertEquals(List.of(1, 2, 3, 4, 5, 6, 7), result1);
+}
 }
