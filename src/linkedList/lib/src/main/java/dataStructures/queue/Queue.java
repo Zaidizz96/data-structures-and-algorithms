@@ -3,7 +3,7 @@ package dataStructures.queue;
 import dataStructures.sharedNode.Node;
 
 import java.util.EmptyStackException;
-
+import java.util.NoSuchElementException;
 
 
 public class Queue<T> {
@@ -23,22 +23,29 @@ public class Queue<T> {
         Node<T> node = new Node<>(value);
         if (isEmpty()) {
             front = node;
-            back = node;
+        } else {
+            back.setNext(node);
         }
-        back.setNext(node);
-        back = back.getNext();
+        back = node;
     }
+
 
     public T dequeue() {
         if (isEmpty()) {
-            throw new EmptyStackException();
+            throw new NoSuchElementException("Queue is empty");
         }
 
         T dequeuedItem = front.getData();
         front = front.getNext();
 
+        // If front becomes null, set back to null as well to keep the queue consistent
+        if (front == null) {
+            back = null;
+        }
+
         return dequeuedItem;
     }
+
 
 
     public T peek() {

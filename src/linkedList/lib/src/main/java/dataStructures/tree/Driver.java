@@ -2,8 +2,10 @@ package dataStructures.tree;
 
 import dataStructures.linkedList.LinkedList;
 
+import java.util.List;
+
 public class Driver {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         BinaryTree binaryTree = new BinaryTree(7);
         binaryTree.root.leftNode = new Node(5);
@@ -43,10 +45,22 @@ public class Driver {
 
 
         // ======================================
+        BinaryTree binaryTree1 = new BinaryTree(1);
+        binaryTree1.root.leftNode = new Node(2);
+        binaryTree1.root.rightNode = new Node(3);
+        binaryTree1.root.leftNode.leftNode = new Node(4);
+        binaryTree1.root.leftNode.rightNode = new Node(5);
+        binaryTree1.root.rightNode.leftNode = new Node(6);
+        binaryTree1.root.rightNode.rightNode = new Node(7);
 
+        try {
+            List<Integer> result = binaryTree1.breadthFirst(binaryTree1.root);
+            System.out.println(result);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }}
 
     }
 
 
 
-}
