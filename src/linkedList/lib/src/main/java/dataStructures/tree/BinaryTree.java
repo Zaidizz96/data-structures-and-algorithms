@@ -1,6 +1,10 @@
 package dataStructures.tree;
 
 import dataStructures.linkedList.LinkedList;
+import dataStructures.queue.Queue;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class BinaryTree {
    public Node root;
@@ -66,4 +70,42 @@ public class BinaryTree {
         return max_root;
 
     }
+
+        public List<Integer> breadthFirst(Node node) throws Exception{
+        Queue<Node> queue = new Queue<>();
+        List<Integer> list = new ArrayList<>();
+
+        if (node == null){
+            return list;
+        }
+        queue.enqueue(node);
+        while (!queue.isEmpty()){
+            Node curr = queue.dequeue();
+            list.add(curr.value);
+            if (node.leftNode != null){
+                queue.enqueue(node.leftNode);
+            }
+            if (node.rightNode != null){
+                queue.enqueue(node.rightNode);
+            }
+        }
+        return list;
+    }
+
+    public static void main(String[] args) throws Exception {
+       try {
+           BinaryTree binaryTree1 = new BinaryTree(1);
+           binaryTree1.root.leftNode = new Node(2);
+           binaryTree1.root.rightNode = new Node(3);
+           binaryTree1.root.leftNode.leftNode = new Node(4);
+           binaryTree1.root.leftNode.rightNode = new Node(5);
+           binaryTree1.root.rightNode.leftNode = new Node(6);
+           binaryTree1.root.rightNode.rightNode = new Node(7);
+
+           System.out.println(binaryTree1.breadthFirst(binaryTree1.root));
+       }catch (Exception e){
+           e.getMessage();
+       }
+    }
+
 }

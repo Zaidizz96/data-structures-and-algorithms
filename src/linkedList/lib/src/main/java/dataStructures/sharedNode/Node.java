@@ -2,28 +2,27 @@ package dataStructures.sharedNode;
 
 public class Node<T> {
 
-    private Node next;
-    private Integer data;
+    private Node<T> next;
+    private T data;
 
-    public Node(Integer data) {
+    public Node(T data) {
         this.data = data;
         this.next = null;
     }
 
-    public void setNext(Node next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 
-    public void setData(int data) {
+    public void setData(T data) {
         this.data = data;
     }
 
-    public Node getNext() {
+    public Node<T> getNext() {
         return next;
     }
 
-    public int getData() {
+    public T getData() {
         return data;
     }
-
 }

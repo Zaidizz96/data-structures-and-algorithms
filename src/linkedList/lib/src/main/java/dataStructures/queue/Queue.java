@@ -4,31 +4,23 @@ import dataStructures.sharedNode.Node;
 
 import java.util.EmptyStackException;
 
-public class Queue {
-    private Node front;
-    private Node back;
+
+
+public class Queue<T> {
+    private Node<T> front;
+    private Node<T> back;
 
     public Queue() {
         front = null;
         back = null;
     }
 
-    public static void main(String[] args) {
-        Queue queue = new Queue();
-        queue.enqueue(3);
-        queue.enqueue(5);
-        queue.enqueue(8);
-        queue.enqueue(4);
-        System.out.println(queue.print());
-
-    }
-
     public boolean isEmpty() {
         return (front == null && back == null);
     }
 
-    public void enqueue(int value) {
-        Node node = new Node(value);
+    public void enqueue(T value) {
+        Node<T> node = new Node<>(value);
         if (isEmpty()) {
             front = node;
             back = node;
@@ -37,14 +29,19 @@ public class Queue {
         back = back.getNext();
     }
 
-    public void dequeue() {
+    public T dequeue() {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
+
+        T dequeuedItem = front.getData();
         front = front.getNext();
+
+        return dequeuedItem;
     }
 
-    public int peek() {
+
+    public T peek() {
         if (isEmpty()) {
             throw new RuntimeException("The Queue is Empty");
         }
@@ -55,7 +52,7 @@ public class Queue {
         StringBuilder values = new StringBuilder();
 
         if (!isEmpty()) {
-            Node curr = front;
+            Node<T> curr = front;
             while (curr != back.getNext()) {
                 if (curr == back) {
                     values.append(curr.getData());
@@ -66,5 +63,14 @@ public class Queue {
             }
         }
         return values.toString();
+    }
+
+    public static void main(String[] args) {
+        Queue<Integer> queue = new Queue<>();
+        queue.enqueue(3);
+        queue.enqueue(5);
+        queue.enqueue(8);
+        queue.enqueue(4);
+        System.out.println(queue.print());
     }
 }
