@@ -1,46 +1,36 @@
 package dataStructures.pseudoQueue;
 
-import dataStructures.queue.Queue;
 import dataStructures.stack.Stack;
 
-public class PseudoQueue implements PseudoQueueInterFace {
+public class PseudoQueue<T> implements PseudoQueueInterface<T> {
 
-    public Stack stack1, stack2;
+    private Stack<T> stack1;
+    private Stack<T> stack2;
 
     public PseudoQueue() {
-        stack1 = new Stack();
-        stack2 = new Stack();
-    }
-
-    public static void push(Stack topStack, int value) {
-        topStack.push(value);
-    }
-
-    public static int pop(Stack topStack) {
-        if (topStack.isEmpty()) {
-            return -1;
-        }
-        return topStack.pop();
+        stack1 = new Stack<>();
+        stack2 = new Stack<>();
     }
 
     @Override
-    public void enqueue(PseudoQueue queue, int value) {
+    public void enqueue(PseudoQueue<T> queue, T value) {
         queue.stack1.push(value);
     }
 
     @Override
-    public int dequeue(PseudoQueue queue) {
-        int popedNumber;
-        if (queue.stack1.isEmpty() && queue.stack2.isEmpty()){
-            return -1;
+    public T dequeue(PseudoQueue<T> queue) {
+        T poppedItem;
+        if (queue.stack1.isEmpty() && queue.stack2.isEmpty()) {
+            throw new RuntimeException("The PseudoQueue is empty");
         }
-        if (queue.stack2.isEmpty()){
-            while (!queue.stack1.isEmpty()){
-                popedNumber = pop(queue.stack1);
-                queue.stack2.push(popedNumber);
+
+        if (queue.stack2.isEmpty()) {
+            while (!queue.stack1.isEmpty()) {
+                poppedItem = queue.stack1.pop();
+                queue.stack2.push(poppedItem);
             }
         }
-        popedNumber = queue.stack2.pop();
-        return popedNumber;
+
+        return queue.stack2.pop();
     }
 }
