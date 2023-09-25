@@ -1,7 +1,5 @@
 package dataStructures.tree;
 
-import dataStructures.linkedList.LinkedList;
-
 import java.util.List;
 
 public class Driver {
@@ -58,9 +56,20 @@ public class Driver {
             System.out.println(result);
         } catch (Exception e) {
             e.printStackTrace();
-        }}
+        }
 
+        //=====================fizzbuzz code challanege=================
+        KaryNode karyNode = new KaryNode("6");
+        karyNode.childrenNodes.add(new KaryNode("8"));
+        karyNode.childrenNodes.add(new KaryNode("4"));
+        karyNode.childrenNodes.add(new KaryNode("6"));
+        karyNode.childrenNodes.add(new KaryNode("1"));
+        karyNode.childrenNodes.add(new KaryNode("10"));
+
+        KaryNode karyNode1 = FizzBuzzTree.fizzBuzzTree(karyNode);
+        FizzBuzzTree.printTree(karyNode1);
     }
+}
 
 
 
