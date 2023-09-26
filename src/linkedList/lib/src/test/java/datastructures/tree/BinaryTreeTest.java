@@ -1,7 +1,5 @@
 package datastructures.tree;
-import dataStructures.tree.BinarySearchTree;
-import dataStructures.tree.BinaryTree;
-import dataStructures.tree.Node;
+import dataStructures.tree.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -43,5 +41,29 @@ public class BinaryTreeTest {
         tree1.root.rightNode.rightNode = new Node(7);
         List<Integer> result1 = tree1.breadthFirst(tree1.root);
         assertEquals(List.of(1, 2, 3, 4, 5, 6, 7), result1);
-}
+    }
+    //================================== K-ary tree ======================
+    @Test
+    public void testFizzBuzzTreeWithDivisibleValues() {
+        KaryNode root = new KaryNode("15");
+        root.childrenNodes.add(new KaryNode("3"));
+        root.childrenNodes.add(new KaryNode("5"));
+        root.childrenNodes.add(new KaryNode("7"));
+
+        KaryNode newRoot = FizzBuzzTree.fizzBuzzTree(root);
+
+        assertEquals("FizzBuzz", newRoot.value);
+        assertEquals("Fizz", newRoot.childrenNodes.get(0).value);
+        assertEquals("Buzz", newRoot.childrenNodes.get(1).value);
+        assertEquals("7", newRoot.childrenNodes.get(2).value);
+    }
+
+    @Test
+    public void testFizzBuzzTreeWithSingleValue() {
+        KaryNode root = new KaryNode("3");
+
+        KaryNode newRoot = FizzBuzzTree.fizzBuzzTree(root);
+
+        assertEquals("Fizz", newRoot.value);
+    }
 }
