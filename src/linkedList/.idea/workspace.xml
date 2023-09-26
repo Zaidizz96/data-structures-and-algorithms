@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/FizzBuzzTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/KaryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k-ary _tree_fizzbuzz.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_TREES.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_TREES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/KaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/tree/KaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/datastructures/tree/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/tree/BinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Gradle.BinaryTreeTest.testFizzBuzzTreeWithSingleValue">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructures.tree.Driver" />
       <module name="linkedList.lib.main" />
@@ -124,7 +125,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeTest.testFizzBuzzTreeWithDivisibleValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +138,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.stack.StackTest&quot;" />
+            <option value="&quot;datastructures.tree.BinaryTreeTest.testFizzBuzzTreeWithDivisibleValues&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +148,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestAnimalShelter (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeTest.testFizzBuzzTreeWithSingleValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +161,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.pseudoQueue.TestAnimalShelter&quot;" />
+            <option value="&quot;datastructures.tree.BinaryTreeTest.testFizzBuzzTreeWithSingleValue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeTest.testFizzBuzzTreeWithSingleValue" />
+        <item itemvalue="Gradle.BinaryTreeTest.testFizzBuzzTreeWithDivisibleValues" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Gradle.BinaryTreeTest.testBreadthFirst" />
-        <item itemvalue="Gradle.StackTest" />
-        <item itemvalue="Gradle.TestAnimalShelter (1)" />
       </list>
     </recent_temporary>
   </component>
