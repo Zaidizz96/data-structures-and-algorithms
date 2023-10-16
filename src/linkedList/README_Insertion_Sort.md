@@ -58,6 +58,16 @@ The fifth pass deals with the element 15. It is smaller than 23 but larger than 
 
 In the final pass, we have the element 42. It is larger than all the elements in the sorted array, so it remains in place. The array is now completely sorted.
 
+## Insertion Sort Algorithm
+1. Start with an array of elements to be sorted.
+2. Initialize a sorted section, which initially contains the first element of the array.
+3. Iterate through the unsorted section of the array.
+4. For each element in the unsorted section:
+    - Compare it with each element in the sorted section.
+    - Move elements in the sorted section to the right until you find the correct position for the current element or reach the beginning of the array.
+    - Insert the current element into the correct position in the sorted section.
+5. Continue this process until all elements are sorted.
+
 ### Efficiency
 
 - **Time Complexity**: The basic operation in Insertion Sort is comparison. It compares elements to find the correct position for insertion. This operation happens approximately `n * (n-1)` times, leading to a time complexity of O(n^2).

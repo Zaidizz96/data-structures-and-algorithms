@@ -1,9 +1,8 @@
 package dataStructures.insertion_sort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class InsertionSort {
+public class InsertionSortArray {
     public static void insert(ArrayList<Integer> sorted, int value) {
         int i = 0;
         while (i < sorted.size() && value > sorted.get(i)) {
