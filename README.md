@@ -24,6 +24,8 @@
 | -------------------------------------- | -----------------------------------------------                      |
 | Insertion Sort Array                   | [Read me file](./src/linkedList/README_Insertion_Sort.md)            |
 | -------------------------------------- | -----------------------------------------------                      |
+| Merge Sort Array                       | [Read me file](./src/linkedList/README_Merge_Sort.md)                |
+| -------------------------------------- | -----------------------------------------------                      |
 | Multi-bracket Validation.              | [Read me file](./src/linkedList/README_Multi_bracketT_Validation.md) |
 
 
