@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_SortingMoviesObject.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/sortingObjects/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/sortingObjects/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/sortingObjects/SortingMoviesObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/sortingComparisonObjects/SortingMoviesObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_Hash_tables.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashtables/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashtables/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashtables/HashMapPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/hashtables/HashTablesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +76,8 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortingMoviesObjectTest.testSortByYearDescending">
-    <configuration name="SortingMoviesObjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HashTablesTest.testHashInRange">
+    <configuration name="HashTablesTest.check_Access_Pair_With_NonValid_Key" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -90,7 +90,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.sortingComparisonObjects.SortingMoviesObjectTest&quot;" />
+            <option value="&quot;datastructures.hashtables.HashTablesTest.check_Access_Pair_With_NonValid_Key&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -100,7 +100,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SortingMoviesObjectTest.testSortAlphabeticallyIgnoringArticles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashTablesTest.check_Return_Unique_Key" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +113,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.sortingComparisonObjects.SortingMoviesObjectTest.testSortAlphabeticallyIgnoringArticles&quot;" />
+            <option value="&quot;datastructures.hashtables.HashTablesTest.check_Return_Unique_Key&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,7 +123,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SortingMoviesObjectTest.testSortByYearDescending" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashTablesTest.check_Set_Pair_And_Store_In_DataStructure" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +136,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.sortingComparisonObjects.SortingMoviesObjectTest.testSortByYearDescending&quot;" />
+            <option value="&quot;datastructures.hashtables.HashTablesTest.check_Set_Pair_And_Store_In_DataStructure&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -146,7 +146,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="sortingObjectsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashTablesTest.testGetCollision" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +159,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.sortingComparisonObjects.sortingObjectsTest&quot;" />
+            <option value="&quot;datastructures.hashtables.HashTablesTest.testGetCollision&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +169,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="sortingObjectsTest.testSortAlphabeticallyIgnoringArticles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashTablesTest.testHashInRange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +182,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.sortingComparisonObjects.sortingObjectsTest.testSortAlphabeticallyIgnoringArticles&quot;" />
+            <option value="&quot;datastructures.hashtables.HashTablesTest.testHashInRange&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SortingMoviesObjectTest.testSortByYearDescending" />
-        <item itemvalue="Gradle.SortingMoviesObjectTest" />
-        <item itemvalue="Gradle.SortingMoviesObjectTest.testSortAlphabeticallyIgnoringArticles" />
-        <item itemvalue="Gradle.sortingObjectsTest" />
-        <item itemvalue="Gradle.sortingObjectsTest.testSortAlphabeticallyIgnoringArticles" />
+        <item itemvalue="Gradle.HashTablesTest.testHashInRange" />
+        <item itemvalue="Gradle.HashTablesTest.testGetCollision" />
+        <item itemvalue="Gradle.HashTablesTest.check_Return_Unique_Key" />
+        <item itemvalue="Gradle.HashTablesTest.check_Access_Pair_With_NonValid_Key" />
+        <item itemvalue="Gradle.HashTablesTest.check_Set_Pair_And_Store_In_DataStructure" />
       </list>
     </recent_temporary>
   </component>

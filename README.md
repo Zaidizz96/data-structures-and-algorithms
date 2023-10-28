@@ -28,6 +28,8 @@
 | -------------------------------------- | -----------------------------------------------                      |
 | Sorting Objects                        | [Read me file](./src/linkedList/README_SortingMoviesObject.md)       |
 | -------------------------------------- | -----------------------------------------------                      |
+| HashTables                             | [Read me file](./src/linkedList/README_Hash_tables.md)               |
+| -------------------------------------- | -----------------------------------------------                      |
 | Multi-bracket Validation.              | [Read me file](./src/linkedList/README_Multi_bracketT_Validation.md) |
 
 
