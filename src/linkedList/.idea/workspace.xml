@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_Hash_tables.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashtables/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashtables/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashtables/HashMapPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/hashtables/HashTablesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_Hashmap_Repeated_Word.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashmap_repeated_word/Hashmap_Repeated_Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/hashmap_repeated_word/hashmapRepeatedWordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +74,34 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HashTablesTest.testHashInRange">
-    <configuration name="HashTablesTest.check_Access_Pair_With_NonValid_Key" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.hashmapRepeatedWordTest.testFindRepeatedWordWithNoRepeatedWords">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.hashtables.Driver" />
+      <module name="linkedList.lib.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructures.hashtables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hashmap_Repeated_Word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.hashmap_repeated_word.Hashmap_Repeated_Word" />
+      <module name="linkedList.lib.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructures.hashmap_repeated_word.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hashmap_Repeated_Word_Test.testFindRepeatedWord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -90,7 +114,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.hashtables.HashTablesTest.check_Access_Pair_With_NonValid_Key&quot;" />
+            <option value="&quot;datastructures.hashmap_repeated_word.Hashmap_Repeated_Word_Test.testFindRepeatedWord&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -100,7 +124,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HashTablesTest.check_Return_Unique_Key" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hashmapRepeatedWordTest.testFindRepeatedWord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +137,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.hashtables.HashTablesTest.check_Return_Unique_Key&quot;" />
+            <option value="&quot;datastructures.hashmap_repeated_word.hashmapRepeatedWordTest.testFindRepeatedWord&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,7 +147,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HashTablesTest.check_Set_Pair_And_Store_In_DataStructure" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hashmapRepeatedWordTest.testFindRepeatedWordWithNoRepeatedWords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,53 +160,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.hashtables.HashTablesTest.check_Set_Pair_And_Store_In_DataStructure&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HashTablesTest.testGetCollision" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;datastructures.hashtables.HashTablesTest.testGetCollision&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HashTablesTest.testHashInRange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;datastructures.hashtables.HashTablesTest.testHashInRange&quot;" />
+            <option value="&quot;datastructures.hashmap_repeated_word.hashmapRepeatedWordTest.testFindRepeatedWordWithNoRepeatedWords&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HashTablesTest.testHashInRange" />
-        <item itemvalue="Gradle.HashTablesTest.testGetCollision" />
-        <item itemvalue="Gradle.HashTablesTest.check_Return_Unique_Key" />
-        <item itemvalue="Gradle.HashTablesTest.check_Access_Pair_With_NonValid_Key" />
-        <item itemvalue="Gradle.HashTablesTest.check_Set_Pair_And_Store_In_DataStructure" />
+        <item itemvalue="Gradle.hashmapRepeatedWordTest.testFindRepeatedWordWithNoRepeatedWords" />
+        <item itemvalue="Gradle.hashmapRepeatedWordTest.testFindRepeatedWord" />
+        <item itemvalue="Gradle.Hashmap_Repeated_Word_Test.testFindRepeatedWord" />
+        <item itemvalue="Application.Hashmap_Repeated_Word" />
+        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
