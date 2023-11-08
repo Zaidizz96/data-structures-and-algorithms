@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_Hashmap_Repeated_Word.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/hashmap_repeated_word/Hashmap_Repeated_Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/hashmap_repeated_word/hashmapRepeatedWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_Tree_Intersection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/treeIntersection/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/treeIntersection/TreeIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/tree_intersection/TreeIntersectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +75,13 @@
       <recent name="C:\Users\zaida\data-structures-and-algorithms\src\linkedList\lib\src\main\java\dataStructures\linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hashmapRepeatedWordTest.testFindRepeatedWordWithNoRepeatedWords">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructures.hashtables.Driver" />
+  <component name="RunManager" selected="Gradle.TreeIntersectionTest.test_Intersection_With_No_Common_Values">
+    <configuration name="dataStructures.treeIntersection.Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.treeIntersection.Driver" />
       <module name="linkedList.lib.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructures.hashtables.*" />
+          <option name="PATTERN" value="dataStructures.treeIntersection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,20 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hashmap_Repeated_Word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructures.hashmap_repeated_word.Hashmap_Repeated_Word" />
-      <module name="linkedList.lib.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructures.hashmap_repeated_word.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hashmap_Repeated_Word_Test.testFindRepeatedWord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeIntersectionTest.test_Intersection_With_No_Common_Values" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -114,7 +102,30 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.hashmap_repeated_word.Hashmap_Repeated_Word_Test.testFindRepeatedWord&quot;" />
+            <option value="&quot;datastructures.tree_intersection.TreeIntersectionTest.test_Intersection_With_No_Common_Values&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeIntersectionTest.test_Intersection_With_Two_Common_Values" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;datastructures.tree_intersection.TreeIntersectionTest.test_Intersection_With_Two_Common_Values&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TreeIntersectionTest.test_Intersection_With_No_Common_Values" />
+        <item itemvalue="Gradle.TreeIntersectionTest.test_Intersection_With_Two_Common_Values" />
+        <item itemvalue="Application.dataStructures.treeIntersection.Driver" />
         <item itemvalue="Gradle.hashmapRepeatedWordTest.testFindRepeatedWordWithNoRepeatedWords" />
         <item itemvalue="Gradle.hashmapRepeatedWordTest.testFindRepeatedWord" />
-        <item itemvalue="Gradle.Hashmap_Repeated_Word_Test.testFindRepeatedWord" />
-        <item itemvalue="Application.Hashmap_Repeated_Word" />
-        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
