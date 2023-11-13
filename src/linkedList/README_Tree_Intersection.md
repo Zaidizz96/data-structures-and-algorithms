@@ -22,12 +22,12 @@ The approach involves using a custom HashMap to efficiently track and compare va
 - Time Complexity: O(N) where N is the total number of nodes in both trees. We traverse each tree once.
 - Space Complexity: O(M) where M is the number of unique values in the first tree. We store these unique values in the `HashMap` or `HashSet`.
 
-## Solution
+_## Solution
 To run the code, follow these steps:
 
 1. Create instances of the `BinaryTree` class for the two trees.
 2. Call the `tree_intersection` method from the `TreeIntersection` class, passing in the two binary trees.
-3. The method will return a list of common values between the two trees.
+3. The method will return a list of common values between the two trees._
 
 Example:
 ![example input](../../assets/Screenshot%202023-11-08%20221435.png)
