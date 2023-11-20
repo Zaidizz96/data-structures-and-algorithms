@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_Graph_Implementation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/graph/TestGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_Breadth_First_Graph.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/graph/GraphBreadthFirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGraph.test_Get_All_Neighbours" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphBreadthFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -104,7 +102,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.graph.TestGraph.test_Get_All_Neighbours&quot;" />
+            <option value="&quot;datastructures.graph.GraphBreadthFirstTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestGraph.test_Get_All_Vertices" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphBreadthFirstTest.testBreadthFirstTraversalDisconnectedGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +125,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.graph.TestGraph.test_Get_All_Vertices&quot;" />
+            <option value="&quot;datastructures.graph.GraphBreadthFirstTest.testBreadthFirstTraversalDisconnectedGraph&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GraphBreadthFirstTest.testBreadthFirstTraversalDisconnectedGraph" />
+        <item itemvalue="Gradle.GraphBreadthFirstTest" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Gradle.TestGraph.test_Return_Grapgh_With_One_Vertex_And_Edge" />
         <item itemvalue="Gradle.TestGraph.test_Size_Of_Graph" />
-        <item itemvalue="Gradle.TestGraph.test_Get_All_Neighbours" />
-        <item itemvalue="Gradle.TestGraph.test_Get_All_Vertices" />
       </list>
     </recent_temporary>
   </component>

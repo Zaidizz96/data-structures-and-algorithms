@@ -2,6 +2,7 @@ package dataStructures.graph;
 
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class Graph<T extends Comparable<? super T>> implements Comparable<Graph<T>> {
     public HashMap<Vertex<T>, LinkedList<Edge<T>>> adjacencyLists;
@@ -42,6 +43,27 @@ public class Graph<T extends Comparable<? super T>> implements Comparable<Graph<
            throw new IllegalArgumentException("THIS VERTEX IS NOT FOUND");
        }
        return new LinkedList<>(adjacencyLists.get(vertex));
+    }
+
+    public LinkedList<Vertex<T>> breadthFirst(Vertex<T> start) {
+        LinkedList<Vertex<T>> visitedVertices = new LinkedList<>();
+        Queue<Vertex<T>> queue = new LinkedList<>();
+
+        queue.add(start);
+        visitedVertices.add(start);
+
+        while (!queue.isEmpty()) {
+            Vertex<T> current = queue.poll();
+            for (Edge<T> edge : adjacencyLists.get(current)) {
+                Vertex<T> neighbor = edge.destination;
+                if (!visitedVertices.contains(neighbor)) {
+                    visitedVertices.add(neighbor);
+                    queue.add(neighbor);
+                }
+            }
+        }
+
+        return visitedVertices;
     }
 
     public int size() {
