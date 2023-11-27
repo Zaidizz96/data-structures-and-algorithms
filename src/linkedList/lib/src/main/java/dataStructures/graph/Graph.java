@@ -1,8 +1,6 @@
 package dataStructures.graph;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class Graph<T extends Comparable<? super T>> implements Comparable<Graph<T>> {
     public HashMap<Vertex<T>, LinkedList<Edge<T>>> adjacencyLists;
@@ -118,6 +116,32 @@ public class Graph<T extends Comparable<? super T>> implements Comparable<Graph<
         }
         return 0; // Assuming cost of 0 if no direct flight (you can adjust this based on your implementation)
     }
+
+    public List<Vertex<T>> depthFirst(Vertex<T> start) {
+        List<Vertex<T>> visitedVertices = new ArrayList<>();
+        Set<Vertex<T>> visitedVerticesTracker = new HashSet<>();
+
+        depthFirstHelper(start, visitedVerticesTracker, visitedVertices);
+
+        return visitedVertices;
+    }
+
+    private void depthFirstHelper(Vertex<T> current, Set<Vertex<T>> visitedSet, List<Vertex<T>> visitedVertices) {
+        if (current == null) {
+            return;
+        }
+
+        visitedSet.add(current);
+        visitedVertices.add(current);
+
+        for (Edge<T> edge : adjacencyLists.get(current)) {
+            Vertex<T> neighbor = edge.destination;
+            if (!visitedSet.contains(neighbor)) {
+                depthFirstHelper(neighbor, visitedSet, visitedVertices);
+            }
+        }
+    }
+
 
     public int size() {
         return numberOfVertices;

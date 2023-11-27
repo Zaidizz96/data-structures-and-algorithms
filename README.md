@@ -42,6 +42,8 @@
 | -------------------------------------- | -----------------------------------------------                      |
 | Business Trip Graph                    | [Read me file](./src/linkedList/README_BusinessTrip_Graph.md)        |
 | -------------------------------------- | -----------------------------------------------                      |
+| Graph Depth First                      | [Read me file](./src/linkedList/README_Graph_Depth_First.md)         |
+| -------------------------------------- | -----------------------------------------------                      |
 | Multi-bracket Validation.              | [Read me file](./src/linkedList/README_Multi_bracketT_Validation.md) |
 
 

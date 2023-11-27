@@ -45,24 +45,53 @@ public class Driver {
 
         // lab37//
 
+//        Graph<String> graph = new Graph<>(10);
+//
+//        Vertex<String> cityA = graph.addVertex("A");
+//        Vertex<String> cityB = graph.addVertex("B");
+//        Vertex<String> cityC = graph.addVertex("C");
+//
+//        graph.addEdge(cityA, cityB, 80);
+//        graph.addEdge(cityA, cityC, 150);
+//        graph.addEdge(cityB, cityC, 350);
+//
+//        LinkedList<String> cities = new LinkedList<>();
+//        cities.add("A");
+//        cities.add("B");
+//        cities.add("C");
+//
+//        Integer totalCost = graph.businessTrip(graph, cities);
+//
+//        System.out.println("total cost is between these cities is :" + totalCost);
+
+        // lab38 //
+
         Graph<String> graph = new Graph<>(10);
 
-        Vertex<String> cityA = graph.addVertex("A");
-        Vertex<String> cityB = graph.addVertex("B");
-        Vertex<String> cityC = graph.addVertex("C");
+        Vertex<String> vertexA = graph.addVertex("A");
+        Vertex<String> vertexB = graph.addVertex("B");
+        Vertex<String> vertexC = graph.addVertex("C");
+        Vertex<String> vertexD = graph.addVertex("D");
+        Vertex<String> vertexE = graph.addVertex("E");
+        Vertex<String> vertexF = graph.addVertex("F");
+        Vertex<String> vertexH = graph.addVertex("H");
+        Vertex<String> vertexG = graph.addVertex("G");
 
-        graph.addEdge(cityA, cityB, 80);
-        graph.addEdge(cityA, cityC, 150);
-        graph.addEdge(cityB, cityC, 350);
 
-        LinkedList<String> cities = new LinkedList<>();
-        cities.add("A");
-        cities.add("B");
-        cities.add("C");
+        graph.addEdge(vertexA , vertexB , 1);
+        graph.addEdge(vertexA , vertexD , 1);
+        graph.addEdge(vertexD , vertexB , 1);
+        graph.addEdge(vertexD , vertexE , 1);
+        graph.addEdge(vertexD , vertexH , 1);
+        graph.addEdge(vertexD , vertexF , 1);
+        graph.addEdge(vertexH , vertexF , 1);
+        graph.addEdge(vertexB , vertexC , 1);
+        graph.addEdge(vertexC , vertexG , 1);
 
-        Integer totalCost = graph.businessTrip(graph, cities);
+        System.out.println(graph.depthFirst(vertexA));
 
-        System.out.println("total cost is between these cities is :" + totalCost);
+
+
     }
 
     }

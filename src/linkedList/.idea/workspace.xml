@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530710-23cf-4d49-9a5a-9e7d1c54d91c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_BusinessTrip_Graph.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/graph/GraphBusiunessTripTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_Graph_Depth_First.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/graph/GraphDepthFirst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/dataStructures/graph/Graph.java" afterDir="false" />
@@ -135,7 +135,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphBusiunessTripTests.testNotPossibleBuisnessTrip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphDepthFirst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +148,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.graph.GraphBusiunessTripTests.testNotPossibleBuisnessTrip&quot;" />
+            <option value="&quot;datastructures.graph.GraphDepthFirst&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphBusiunessTripTests.testPossibleBuisenessTrip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphDepthFirst.testDepthFirstTraversal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +171,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;datastructures.graph.GraphBusiunessTripTests.testPossibleBuisenessTrip&quot;" />
+            <option value="&quot;datastructures.graph.GraphDepthFirst.testDepthFirstTraversal&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GraphDepthFirst" />
+        <item itemvalue="Gradle.GraphDepthFirst.testDepthFirstTraversal" />
+        <item itemvalue="Gradle.GraphBusiunessTripTests" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Gradle.GraphBusiunessTripTests.testBusinessTripWithNotExistedCity" />
-        <item itemvalue="Gradle.GraphBusiunessTripTests.testNotPossibleBuisnessTrip" />
-        <item itemvalue="Gradle.GraphBusiunessTripTests" />
-        <item itemvalue="Gradle.GraphBusiunessTripTests.testPossibleBuisenessTrip" />
       </list>
     </recent_temporary>
   </component>
